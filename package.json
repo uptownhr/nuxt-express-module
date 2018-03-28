@@ -1,6 +1,6 @@
 {
   "name": "nuxt-express-module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "license": "MIT",
   "contributors": [
@@ -19,8 +19,12 @@
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": ["lib/templates/*.*"],
-  "files": ["lib"],
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true
