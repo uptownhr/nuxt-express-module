@@ -12,7 +12,7 @@
 
 ## Features
 
-The module features
+Provides `express` and `express/routes` directory to write express routes within nuxt. The module will watch for all files within the `express` directory for changes and hot-reload without taking down the entire nuxt server.
 
 ## Setup
 - Add `nuxt-express-module` dependency using yarn or npm to your project
@@ -29,6 +29,28 @@ The module features
  ]
 }
 ```
+
+```js
+// express/routes/index.js sample
+const {Router} = require('express')
+const router = Router()
+
+router.get('/api/test', (req, res) => {
+  res.send('hello')
+})
+
+module.exports = router
+
+```
+
+
+## Options
+
+### expressPath
+Overrides the default path of where the express directory is
+
+### routesPath
+Overrides the default path of where express/routes/index.js is located
 
 ## Usage
 
