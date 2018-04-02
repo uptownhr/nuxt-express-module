@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/compare/v0.0.6...v0.0.7) (2018-04-02)
+
+
+### Bug Fixes
+
+* don't leak watchers ([e8351be](https://github.com/commit/e8351be))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/compare/v0.0.5...v0.0.6) (2018-03-28)
 
