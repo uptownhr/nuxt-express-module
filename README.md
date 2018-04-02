@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/dt/nuxt-express-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-express-module)
 [![CircleCI](https://img.shields.io/circleci/project/github/uptownhr/nuxt-express-module.svg?style=flat-square)](https://circleci.com/gh/uptownhr/nuxt-express-module)
 [![Codecov](https://img.shields.io/codecov/c/github/uptownhr/nuxt-express-module.svg?style=flat-square)](https://codecov.io/gh/uptownhr/nuxt-express-module)
-[![Dependencies](https://david-dm.org/uptownhr/nuxt-express-module/status.svg?style=flat-square)](https://david-dm.org/)
+[![Dependencies](https://david-dm.org/uptownhr/nuxt-express-module/status.svg?style=flat-square)](https://david-dm.org/uptownhr/nuxt-express-module)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > 
