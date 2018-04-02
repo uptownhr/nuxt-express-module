@@ -23,4 +23,9 @@ describe('basic', () => {
     let html = await get('/')
     expect(html).toContain('Works!')
   })
+
+  test('get express path', async () => {
+    let response = await get('/api/test')
+    expect(response).toBe('testing success')
+  })
 })
