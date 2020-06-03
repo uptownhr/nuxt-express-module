@@ -8,6 +8,10 @@
 
 > 
 
+# Depricated
+Everyone, I do not recommend using this module. This is no longer maintained and probably broken. I also recommend checking https://nuxtjs.org/api/configuration-servermiddleware/#usage, as Nuxt provides this as a baked in feature.
+
+
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Features
